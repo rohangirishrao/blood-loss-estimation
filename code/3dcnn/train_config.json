@@ -1,0 +1,23 @@
+{
+  "device": 1,
+  "epochs": 20,
+  "batch_size": 2,
+  "train": true,
+  "seed": 41,
+  "model_name": "model-dec5",
+  "video_dir_1fps": "/raid/dsl/users/r.rohangirish/data/videos_1_fps",
+  "video_dir_2fps": "/raid/dsl/users/r.rohangirish/data/videos_2_fps",
+  "annotations_dir": "/home/r.rohangirish/mt_ble/data/labels_xml",
+  "volume_csv": "/home/r.rohangirish/mt_ble/video-based-bloodloss-assessment/documents/BL_data_combined.csv",
+  "output_dir_models": "./MODELS_DEC2025",
+  "clip_length": 12,
+  "clips_per_sequence": 6,
+  "stride": 12,
+  "learning_rate": 1e-5,
+  "lr_backbone": 3e-5,
+  "lr_lstm": 1e-4,
+  "input_size": [224, 224],
+  "use_2fps": false,
+  "test_model_path": "./BLE_MODELS_NEW/v5-FINAL-f1/v5-FINAL-f1_best.pth",
+  "specific_test_video": "Dvpb"
+}

@@ -1,0 +1,10 @@
+{
+  "model_path": "./MODELS_NOV2025/model-dec1/model-dec1_best.pth",
+  "video_folder": "/raid/dsl/users/r.rohangirish/data/videos_high_bl",
+  "output_json": "./inference_results.json",
+  "volume_csv": "/home/r.rohangirish/mt_ble/data/labels_quantification/BL_data_combined.csv",
+  "clip_length": 12,
+  "clips_per_sequence": 6,
+  "input_size": [224, 224],
+  "device": 0
+}
