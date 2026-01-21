@@ -1,0 +1,36 @@
+name: bleeding-detection
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - seaborn
+  - tqdm
+  - opencv
+  - ffmpeg
+  - pillow
+  - yaml
+  - json5
+  - h5py
+
+  # PyTorch + CUDA 12.1
+  - pytorch=2.2
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+
+  - pip:
+      - ultralytics
+      - tensorboard
+      - openpyxl
+      - moviepy
+      - albumentations
+      - rich
