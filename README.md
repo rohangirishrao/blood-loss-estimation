@@ -3,6 +3,8 @@ This repository houses the code for the Master Thesis titled "Development of a V
 
 It was developed at the **Digital Surgery Lab** of the Department of Biomedical Engineering at the *University of Basel*.
 
+If you use this code for distribution or publication, please credit rohangirishrao@gmail.com (Rohan Girish).
+
 ## Description
 This project aims to develop a deep-learning model to identify bleeding events minimally invasive surgery, and further quantify the amount of the blood lost.
 The ideal workflow for the entire project looks like this: 
